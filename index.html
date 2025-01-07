@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">TheEasyShop</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="cart.html"  class="cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <h1>Welcome to TheEasyShop</h1>
+            <p>Your one-stop shop for everything you need!</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </section>
+        
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>
+                At <strong>TheEasyShop</strong>, we are dedicated to delivering the best shopping experience. 
+                Our mission is to offer high-quality products, seamless shopping, and unbeatable customer service.
+            </p>
+            <p>
+                Whether you're shopping for the latest trends or everyday essentials, we've got you covered. 
+                Explore a wide variety of products carefully curated to meet your needs.
+            </p>
+        
+            <div class="values">
+                <div class="value">
+                    <h3>Quality Products</h3>
+                    <p>
+                        We pride ourselves on offering only the best products from trusted brands. 
+                        Quality is our top priority.
+                    </p>
+                </div>
+                <div class="value">
+                    <h3>Customer Satisfaction</h3>
+                    <p>
+                        Your happiness is our success. Our team is here to assist you every step of the way.
+                    </p>
+                </div>
+                <div class="value">
+                    <h3>Fast Shipping</h3>
+                    <p>
+                        Get your orders delivered quickly with our reliable and efficient shipping options.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Got a question or feedback? We'd love to hear from you. Fill out the form below, and we'll get back to you as soon as possible.
+            </p>
+        
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        
+            <div class="social-media">
+                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Your one-stop shop for the best deals and products.</p>
+    
+        <div class="footer-links">
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#faq">FAQs</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#privacy">Privacy Policy</a>
+        </div>
+    
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+    
+        <p class="copyright">
+            &copy; 2024 TheEasyShop. All rights reserved. | Designed with ❤️ by TheEasyShop Team
+        </p>
+    </footer>
+    
+</body>
+</html>
